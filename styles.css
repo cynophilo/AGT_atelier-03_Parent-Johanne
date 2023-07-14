@@ -1,0 +1,40 @@
+body {
+  font-size: 20px;
+  background-color: azure;
+}
+header,
+footer {
+  background-color: cadetblue;
+  height: 100px;
+  margin: 0;
+}
+header p {
+  font-size: 30px;
+  color: aliceblue;
+  text-align: center;
+  padding-top: 30px;
+}
+footer p {
+  font-size: 20px;
+  color: aliceblue;
+  text-align: center;
+  padding-top: 30px;
+}
+section {
+  padding: 0px 100px 0px 100px;
+}
+div {
+  columns: 3 200px;
+  column-rule: dotted 3px cadetblue;
+  width: 800px;
+  margin: 0 auto;
+}
+
+div h2 {
+  column-span: all;
+  text-align: center;
+}
+
+div p:nth-child(2) {
+  margin-top: 0;
+}
